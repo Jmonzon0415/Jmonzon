@@ -1,6 +1,4 @@
-/**
- * Reset some basic elements
- */
+@import url(https://fonts.googleapis.com/css?family=VT323);
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -14,9 +12,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+
+    font-family: 'VT323' ;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #bbeeff;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
